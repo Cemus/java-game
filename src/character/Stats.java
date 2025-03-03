@@ -4,15 +4,11 @@ public class Stats {
     private int maxHp;
     private int hp;
 
-    private int maxMana;
-    private int mana;
-
-    private int atk;
-    private int def;
-    private int spd;
-    private int intel;
-    private int agi;
-
+    private int strength;
+    private int vitality;
+    private int agility;
+    private int intelligence;
+    private int luck;
 
     public int getMaxHp() {
         return maxHp;
@@ -30,59 +26,43 @@ public class Stats {
         this.hp = hp;
     }
 
-    public int getMaxMana() {
-        return maxMana;
+    public int getStrength() {
+        return strength;
     }
 
-    public void setMaxMana(int maxMana) {
-        this.maxMana = maxMana;
+    public void setStrength(int strength) {
+        this.strength = strength;
     }
 
-    public int getMana() {
-        return mana;
+    public int getVitality() {
+        return vitality;
     }
 
-    public void setMana(int mana) {
-        this.mana = mana;
+    public void setVitality(int vitality) {
+        this.vitality = vitality;
     }
 
-    public int getAtk() {
-        return atk;
+    public int getAgility() {
+        return agility;
     }
 
-    public void setAtk(int atk) {
-        this.atk = atk;
+    public void setAgility(int agility) {
+        this.agility = agility;
     }
 
-    public int getDef() {
-        return def;
+    public int getIntelligence() {
+        return intelligence;
     }
 
-    public void setDef(int def) {
-        this.def = def;
+    public void setIntelligence(int intelligence) {
+        this.intelligence = intelligence;
     }
 
-    public int getSpd() {
-        return spd;
+    public int getLuck() {
+        return luck;
     }
 
-    public void setSpd(int spd) {
-        this.spd = spd;
-    }
-
-    public int getIntel() {
-        return intel;
-    }
-
-    public void setIntel(int intel) {
-        this.intel = intel;
-    }
-
-    public int getAgi() {
-        return agi;
-    }
-
-    public void setAgi(int agi) {
-        this.agi = agi;
+    public void setLuck(int luck) {
+        this.luck = luck;
     }
 }
